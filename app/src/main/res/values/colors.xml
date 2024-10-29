@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Purple">#643AB7</color>
+    <color name="DarkPurple">#431EA6</color>
+    <color name="verdesaude">#1DAB30</color>
+    <color name="greeen">#11B82A</color>
+    <color name="verde_destaque">#0B2A02</color>
+</resources>

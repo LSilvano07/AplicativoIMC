@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="calculadora_imc">Calculadora IMC\n</string>
+    <string name="peso">Peso</string>
+    <string name="altura">Altura</string>
+    <string name="Texto_imc">IMC é a sigla de Índice de Massa Corporal, um parâmetro que é utilizado para avaliar se o peso está dentro do valor ideal para a altura.</string>
+    <string name="obter_seu_imc">OBTER SEU IMC</string>
+    <string name="calcular_imc">Calcular Imc</string>
+    <string name="tabela_imc">Resultado IMC:</string>
+    <string name="obs">Resultado IMC:</string>
+    <string name="observa_es">observações</string>
+    <string name="imc">IMC</string>
+    <string name="calcular_imcUP">CALCULAR IMC</string>
+    <string name="historico">Histórico</string>
+</resources>
