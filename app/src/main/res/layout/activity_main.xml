@@ -4,7 +4,6 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#A6E6AF"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -14,18 +13,9 @@
         android:fontFamily="@font/alfa_slab_one"
         android:gravity="center"
         android:padding="6dp"
-        android:text="@string/calculadora_imc"
+        android:text="Calcule seu IMC"
         android:textColor="@color/verde_destaque"
         android:textSize="16dp"/>
-
-    <TextView
-        android:layout_marginTop="4dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/Texto_imc"
-        android:textSize="16dp"
-        android:textStyle="bold"
-        android:textColor="#1E1E1F"/>
 
     <EditText
         android:id="@+id/edit_name"
@@ -102,27 +92,43 @@
         android:backgroundTint="@color/verde_destaque"
         android:textSize="18sp"/>
 
-    <Button
-        android:id="@+id/button_get_historico"
+    <!-- LinearLayout para agrupar os botões em uma linha horizontal -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/button_get_historico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/verde_destaque"
+            android:text="@string/historico"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/botaopost"
+            android:backgroundTint="@color/verde_destaque"
+            android:text="Cadastrar"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+    <!-- FrameLayout para sobrepor a imagem e o botão de cadastro -->
+    <FrameLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:backgroundTint="@color/verde_destaque"
-        android:text="@string/historico"/>
+        android:layout_marginTop="20dp">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerview_historico"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="12dp" />
+        <ImageView
+            android:layout_width="106dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_saude"
+            android:contentDescription="Imagem de saúde" />
 
-    <ImageView
-        android:layout_width="106dp"
-        android:layout_height="80dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:src="@drawable/ic_saude" />
+    </FrameLayout>
 
 </LinearLayout>

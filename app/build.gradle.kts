@@ -41,6 +41,8 @@ android {
 
 dependencies {
     val room_version = "2.6.1"
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1") // Verifique a versão mais recente
+    implementation ("androidx.lifecycle:lifecycle-livedata-ktx:2.6.1")
     implementation("androidx.room:room-runtime:$room_version")
     annotationProcessor("androidx.room:room-compiler:$room_version")
     kapt("androidx.room:room-compiler:$room_version")

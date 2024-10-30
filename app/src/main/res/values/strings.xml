@@ -12,4 +12,7 @@
     <string name="imc">IMC</string>
     <string name="calcular_imcUP">CALCULAR IMC</string>
     <string name="historico">Histórico</string>
+    <string name="usuarios_cadastrados">Usuarios Cadastrados</string>
+    <string name="retornar_para_o_menu_principal">retornar para o menu principal</string>
+    <string name="post">post</string>
 </resources>
